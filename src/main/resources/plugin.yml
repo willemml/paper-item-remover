@@ -1,0 +1,11 @@
+name: ItemRemover
+version: @version@
+main: dev.wnuke.blazenarchy.itemremover.ItemRemover
+prefix: Item Remover
+authors: [wnuke]
+description: Removes specified items from the inventories of players without the ignore remover permission.
+website: blazenarchy.net
+commands:
+  itemremover:
+    description: Item remover's info command
+    usage: /<itemremover>

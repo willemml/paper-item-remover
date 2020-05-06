@@ -1,0 +1,5 @@
+itemsToRemove:
+  - MOB_SPAWNER
+  - MONSTER_EGG
+  - BEDROCK
+  - BARRIER
