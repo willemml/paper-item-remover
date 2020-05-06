@@ -6,9 +6,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerLoginEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -26,7 +23,7 @@ public final class ItemRemover extends JavaPlugin {
     public static final String PREFIX = ChatColor.RED + "[" + ChatColor.AQUA + "ItemRemover" + ChatColor.RED + "]" + ChatColor.WHITE + " ";
     public static FileConfiguration CONFIG;
     public String[] itemsStr;
-    public static ArrayList<ItemStack> itemsArr = new ArrayList<ItemStack>();
+    public static ArrayList<ItemStack> itemsArr = new ArrayList<>();
 
     @Override
     public void onEnable() {
