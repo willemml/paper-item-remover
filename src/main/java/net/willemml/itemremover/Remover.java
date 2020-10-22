@@ -1,4 +1,4 @@
-package dev.wnuke.blazenarchy.itemremover;
+package net.willemml.itemremover;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

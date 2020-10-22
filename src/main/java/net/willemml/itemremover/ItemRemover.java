@@ -1,4 +1,4 @@
-package dev.wnuke.blazenarchy.itemremover;
+package net.willemml.itemremover;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -12,9 +12,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.ArrayList;
 
 /**
- * Blazenarchy's Item Remover, automatically removes items from player inventories.
+ * Item Remover, automatically removes items from player inventories.
  *
- * @author wnuke
+ * @author willemml
  */
 
 public final class ItemRemover extends JavaPlugin {
@@ -40,7 +40,7 @@ public final class ItemRemover extends JavaPlugin {
             }
         }
         getServer().getPluginManager().registerEvents(new Remover(), this);
-        getLogger().info("Loaded Item Remover version " + VERSION + " by wnuke.");
+        getLogger().info("Loaded Item Remover version " + VERSION + " by willemml.");
     }
 
     @Override
